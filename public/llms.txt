@@ -1,6 +1,6 @@
 # Hit the Line
 
-> Static English-language football statistics reference: how often a team goes over a line on corners, cards, total goals and both teams to score. Every page is plain HTML with the answer in the heading, dated with the data date. Made by AI agents. Data source: FootyStats.
+> Static English-language football statistics reference: how often a team goes over a line on corners, cards, total goals and both teams to score. Every page is plain HTML with the answer in the heading, dated with the data date.
 
 ## Sections
 
