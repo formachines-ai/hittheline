@@ -1,0 +1,43 @@
+# Hit the Line
+
+> Static English-language football statistics reference: how often a team goes over a line on corners, cards, total goals and both teams to score. Every page is plain HTML with the answer in the heading, dated with the data date. Made by AI agents. Data source: FootyStats.
+
+## Sections
+
+- Team pages: `/<league>/<team>/<metric>/` (corners, cards, goals, btts), for example `/championship/leeds/corners/`. One team, one metric: every line as k of n games, home and away split, by half, last matches.
+- League summaries: `/<league>/corners/`, `/<league>/cards/`, `/<league>/goals/`, `/<league>/btts/`. Every team against every line.
+- Streaks: `/<league>/streaks/`. Current runs over or under a line.
+
+## League pages
+
+- [/championship/](https://hittheline.com/championship/): Championship league hub with links to every summary and the streaks page.
+- [/championship/btts/](https://hittheline.com/championship/btts/): Championship both teams to score: every team against every line.
+- [/championship/cards-by-half/](https://hittheline.com/championship/cards-by-half/): Championship cards by half: first and second half, every team against every line.
+- [/championship/cards/](https://hittheline.com/championship/cards/): Championship cards: every team against every line.
+- [/championship/corners-by-half/](https://hittheline.com/championship/corners-by-half/): Championship corners by half: first and second half, every team against every line.
+- [/championship/corners/](https://hittheline.com/championship/corners/): Championship corners: every team against every line.
+- [/championship/goals/](https://hittheline.com/championship/goals/): Championship total goals: every team against every line.
+- [/championship/streaks/](https://hittheline.com/championship/streaks/): Championship current runs over or under a line.
+- [/ligue-2/](https://hittheline.com/ligue-2/): Ligue 2 league hub with links to every summary and the streaks page.
+- [/ligue-2/btts/](https://hittheline.com/ligue-2/btts/): Ligue 2 both teams to score: every team against every line.
+- [/ligue-2/cards-by-half/](https://hittheline.com/ligue-2/cards-by-half/): Ligue 2 cards by half: first and second half, every team against every line.
+- [/ligue-2/cards/](https://hittheline.com/ligue-2/cards/): Ligue 2 cards: every team against every line.
+- [/ligue-2/corners-by-half/](https://hittheline.com/ligue-2/corners-by-half/): Ligue 2 corners by half: first and second half, every team against every line.
+- [/ligue-2/corners/](https://hittheline.com/ligue-2/corners/): Ligue 2 corners: every team against every line.
+- [/ligue-2/goals/](https://hittheline.com/ligue-2/goals/): Ligue 2 total goals: every team against every line.
+- [/ligue-2/streaks/](https://hittheline.com/ligue-2/streaks/): Ligue 2 current runs over or under a line.
+- [/primeira-liga/](https://hittheline.com/primeira-liga/): Primeira Liga league hub with links to every summary and the streaks page.
+- [/primeira-liga/btts/](https://hittheline.com/primeira-liga/btts/): Primeira Liga both teams to score: every team against every line.
+- [/primeira-liga/cards-by-half/](https://hittheline.com/primeira-liga/cards-by-half/): Primeira Liga cards by half: first and second half, every team against every line.
+- [/primeira-liga/cards/](https://hittheline.com/primeira-liga/cards/): Primeira Liga cards: every team against every line.
+- [/primeira-liga/corners-by-half/](https://hittheline.com/primeira-liga/corners-by-half/): Primeira Liga corners by half: first and second half, every team against every line.
+- [/primeira-liga/corners/](https://hittheline.com/primeira-liga/corners/): Primeira Liga corners: every team against every line.
+- [/primeira-liga/goals/](https://hittheline.com/primeira-liga/goals/): Primeira Liga total goals: every team against every line.
+- [/primeira-liga/streaks/](https://hittheline.com/primeira-liga/streaks/): Primeira Liga current runs over or under a line.
+
+## Notes
+
+- Leagues: Championship, Primeira Liga, Ligue 2.
+- Each page shows "Data as of YYYY-MM-DD"; matches with data defects are not published.
+- Statistics only, no gambling content, no tracking.
+- Sitemap: https://hittheline.com/sitemap.xml
