@@ -7,9 +7,35 @@
 - Team pages: `/<league>/<team>/<metric>/` (corners, cards, goals, btts), for example `/championship/leeds/corners/`. One team, one metric: every line as k of n games, home and away split, by half, last matches.
 - League summaries: `/<league>/corners/`, `/<league>/cards/`, `/<league>/goals/`, `/<league>/btts/`. Every team against every line.
 - Streaks: `/<league>/streaks/`. Current runs over or under a line.
+- Rounds: `/<league>/round/<n>/`. Per matchweek: runs started and ended, biggest movers in share over the line, matches with most corners and cards. `/<league>/round/` points to the latest.
 
 ## League pages
 
+- [/2-bundesliga/](https://hittheline.com/2-bundesliga/): 2 Bundesliga league hub with links to every summary and the streaks page.
+- [/2-bundesliga/btts/](https://hittheline.com/2-bundesliga/btts/): 2 Bundesliga both teams to score: every team against every line.
+- [/2-bundesliga/cards-by-half/](https://hittheline.com/2-bundesliga/cards-by-half/): 2 Bundesliga cards by half: first and second half, every team against every line.
+- [/2-bundesliga/cards/](https://hittheline.com/2-bundesliga/cards/): 2 Bundesliga cards: every team against every line.
+- [/2-bundesliga/corners-by-half/](https://hittheline.com/2-bundesliga/corners-by-half/): 2 Bundesliga corners by half: first and second half, every team against every line.
+- [/2-bundesliga/corners/](https://hittheline.com/2-bundesliga/corners/): 2 Bundesliga corners: every team against every line.
+- [/2-bundesliga/goals/](https://hittheline.com/2-bundesliga/goals/): 2 Bundesliga total goals: every team against every line.
+- [/2-bundesliga/streaks/](https://hittheline.com/2-bundesliga/streaks/): 2 Bundesliga current runs over or under a line.
+- [/about/](https://hittheline.com/about/): About: what is counted, the lines, how a match is counted and how often data is refreshed.
+- [/belgian-pro-league/](https://hittheline.com/belgian-pro-league/): Belgian Pro League league hub with links to every summary and the streaks page.
+- [/belgian-pro-league/btts/](https://hittheline.com/belgian-pro-league/btts/): Belgian Pro League both teams to score: every team against every line.
+- [/belgian-pro-league/cards-by-half/](https://hittheline.com/belgian-pro-league/cards-by-half/): Belgian Pro League cards by half: first and second half, every team against every line.
+- [/belgian-pro-league/cards/](https://hittheline.com/belgian-pro-league/cards/): Belgian Pro League cards: every team against every line.
+- [/belgian-pro-league/corners-by-half/](https://hittheline.com/belgian-pro-league/corners-by-half/): Belgian Pro League corners by half: first and second half, every team against every line.
+- [/belgian-pro-league/corners/](https://hittheline.com/belgian-pro-league/corners/): Belgian Pro League corners: every team against every line.
+- [/belgian-pro-league/goals/](https://hittheline.com/belgian-pro-league/goals/): Belgian Pro League total goals: every team against every line.
+- [/belgian-pro-league/streaks/](https://hittheline.com/belgian-pro-league/streaks/): Belgian Pro League current runs over or under a line.
+- [/bundesliga/](https://hittheline.com/bundesliga/): Bundesliga league hub with links to every summary and the streaks page.
+- [/bundesliga/btts/](https://hittheline.com/bundesliga/btts/): Bundesliga both teams to score: every team against every line.
+- [/bundesliga/cards-by-half/](https://hittheline.com/bundesliga/cards-by-half/): Bundesliga cards by half: first and second half, every team against every line.
+- [/bundesliga/cards/](https://hittheline.com/bundesliga/cards/): Bundesliga cards: every team against every line.
+- [/bundesliga/corners-by-half/](https://hittheline.com/bundesliga/corners-by-half/): Bundesliga corners by half: first and second half, every team against every line.
+- [/bundesliga/corners/](https://hittheline.com/bundesliga/corners/): Bundesliga corners: every team against every line.
+- [/bundesliga/goals/](https://hittheline.com/bundesliga/goals/): Bundesliga total goals: every team against every line.
+- [/bundesliga/streaks/](https://hittheline.com/bundesliga/streaks/): Bundesliga current runs over or under a line.
 - [/championship/](https://hittheline.com/championship/): Championship league hub with links to every summary and the streaks page.
 - [/championship/btts/](https://hittheline.com/championship/btts/): Championship both teams to score: every team against every line.
 - [/championship/cards-by-half/](https://hittheline.com/championship/cards-by-half/): Championship cards by half: first and second half, every team against every line.
@@ -18,6 +44,23 @@
 - [/championship/corners/](https://hittheline.com/championship/corners/): Championship corners: every team against every line.
 - [/championship/goals/](https://hittheline.com/championship/goals/): Championship total goals: every team against every line.
 - [/championship/streaks/](https://hittheline.com/championship/streaks/): Championship current runs over or under a line.
+- [/la-liga/](https://hittheline.com/la-liga/): La Liga league hub with links to every summary and the streaks page.
+- [/la-liga/btts/](https://hittheline.com/la-liga/btts/): La Liga both teams to score: every team against every line.
+- [/la-liga/cards-by-half/](https://hittheline.com/la-liga/cards-by-half/): La Liga cards by half: first and second half, every team against every line.
+- [/la-liga/cards/](https://hittheline.com/la-liga/cards/): La Liga cards: every team against every line.
+- [/la-liga/corners-by-half/](https://hittheline.com/la-liga/corners-by-half/): La Liga corners by half: first and second half, every team against every line.
+- [/la-liga/corners/](https://hittheline.com/la-liga/corners/): La Liga corners: every team against every line.
+- [/la-liga/goals/](https://hittheline.com/la-liga/goals/): La Liga total goals: every team against every line.
+- [/la-liga/streaks/](https://hittheline.com/la-liga/streaks/): La Liga current runs over or under a line.
+- [/leagues/](https://hittheline.com/leagues/): League comparison: corners, cards, goals and both teams to score per match, every league side by side.
+- [/ligue-1/](https://hittheline.com/ligue-1/): Ligue 1 league hub with links to every summary and the streaks page.
+- [/ligue-1/btts/](https://hittheline.com/ligue-1/btts/): Ligue 1 both teams to score: every team against every line.
+- [/ligue-1/cards-by-half/](https://hittheline.com/ligue-1/cards-by-half/): Ligue 1 cards by half: first and second half, every team against every line.
+- [/ligue-1/cards/](https://hittheline.com/ligue-1/cards/): Ligue 1 cards: every team against every line.
+- [/ligue-1/corners-by-half/](https://hittheline.com/ligue-1/corners-by-half/): Ligue 1 corners by half: first and second half, every team against every line.
+- [/ligue-1/corners/](https://hittheline.com/ligue-1/corners/): Ligue 1 corners: every team against every line.
+- [/ligue-1/goals/](https://hittheline.com/ligue-1/goals/): Ligue 1 total goals: every team against every line.
+- [/ligue-1/streaks/](https://hittheline.com/ligue-1/streaks/): Ligue 1 current runs over or under a line.
 - [/ligue-2/](https://hittheline.com/ligue-2/): Ligue 2 league hub with links to every summary and the streaks page.
 - [/ligue-2/btts/](https://hittheline.com/ligue-2/btts/): Ligue 2 both teams to score: every team against every line.
 - [/ligue-2/cards-by-half/](https://hittheline.com/ligue-2/cards-by-half/): Ligue 2 cards by half: first and second half, every team against every line.
@@ -26,6 +69,14 @@
 - [/ligue-2/corners/](https://hittheline.com/ligue-2/corners/): Ligue 2 corners: every team against every line.
 - [/ligue-2/goals/](https://hittheline.com/ligue-2/goals/): Ligue 2 total goals: every team against every line.
 - [/ligue-2/streaks/](https://hittheline.com/ligue-2/streaks/): Ligue 2 current runs over or under a line.
+- [/premier-league/](https://hittheline.com/premier-league/): Premier League league hub with links to every summary and the streaks page.
+- [/premier-league/btts/](https://hittheline.com/premier-league/btts/): Premier League both teams to score: every team against every line.
+- [/premier-league/cards-by-half/](https://hittheline.com/premier-league/cards-by-half/): Premier League cards by half: first and second half, every team against every line.
+- [/premier-league/cards/](https://hittheline.com/premier-league/cards/): Premier League cards: every team against every line.
+- [/premier-league/corners-by-half/](https://hittheline.com/premier-league/corners-by-half/): Premier League corners by half: first and second half, every team against every line.
+- [/premier-league/corners/](https://hittheline.com/premier-league/corners/): Premier League corners: every team against every line.
+- [/premier-league/goals/](https://hittheline.com/premier-league/goals/): Premier League total goals: every team against every line.
+- [/premier-league/streaks/](https://hittheline.com/premier-league/streaks/): Premier League current runs over or under a line.
 - [/primeira-liga/](https://hittheline.com/primeira-liga/): Primeira Liga league hub with links to every summary and the streaks page.
 - [/primeira-liga/btts/](https://hittheline.com/primeira-liga/btts/): Primeira Liga both teams to score: every team against every line.
 - [/primeira-liga/cards-by-half/](https://hittheline.com/primeira-liga/cards-by-half/): Primeira Liga cards by half: first and second half, every team against every line.
@@ -34,10 +85,18 @@
 - [/primeira-liga/corners/](https://hittheline.com/primeira-liga/corners/): Primeira Liga corners: every team against every line.
 - [/primeira-liga/goals/](https://hittheline.com/primeira-liga/goals/): Primeira Liga total goals: every team against every line.
 - [/primeira-liga/streaks/](https://hittheline.com/primeira-liga/streaks/): Primeira Liga current runs over or under a line.
+- [/serie-a/](https://hittheline.com/serie-a/): Serie A league hub with links to every summary and the streaks page.
+- [/serie-a/btts/](https://hittheline.com/serie-a/btts/): Serie A both teams to score: every team against every line.
+- [/serie-a/cards-by-half/](https://hittheline.com/serie-a/cards-by-half/): Serie A cards by half: first and second half, every team against every line.
+- [/serie-a/cards/](https://hittheline.com/serie-a/cards/): Serie A cards: every team against every line.
+- [/serie-a/corners-by-half/](https://hittheline.com/serie-a/corners-by-half/): Serie A corners by half: first and second half, every team against every line.
+- [/serie-a/corners/](https://hittheline.com/serie-a/corners/): Serie A corners: every team against every line.
+- [/serie-a/goals/](https://hittheline.com/serie-a/goals/): Serie A total goals: every team against every line.
+- [/serie-a/streaks/](https://hittheline.com/serie-a/streaks/): Serie A current runs over or under a line.
 
 ## Notes
 
-- Leagues: Championship, Primeira Liga, Ligue 2.
+- Leagues: 2. Bundesliga, Belgian Pro League, Bundesliga, Championship, La Liga, Ligue 1, Ligue 2, Premier League, Primeira Liga, Serie A.
 - Each page shows "Data as of YYYY-MM-DD"; matches with data defects are not published.
 - Statistics only, no gambling content, no tracking.
 - Sitemap: https://hittheline.com/sitemap.xml

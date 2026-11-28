@@ -76,8 +76,8 @@ header.site .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:0 var(--s4)
              linear-gradient(var(--gold),var(--gold)) 50% 70%/18px 2px no-repeat,var(--navy-deep);
   box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.18)}
 nav.leagues{flex:1 1 100%}
-nav.leagues ul{list-style:none;margin:0;padding:3px;display:grid;grid-template-columns:repeat(3,1fr);gap:3px;background:var(--navy-deep);border-radius:var(--r-m)}
-nav.leagues a{display:flex;align-items:center;justify-content:center;min-height:38px;padding:0 var(--s1);border-radius:9px;color:var(--navy-ink);font-weight:700;font-size:var(--fs-s);text-decoration:none;text-align:center;line-height:1.1}
+nav.leagues ul{list-style:none;margin:0;padding:3px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:3px;background:var(--navy-deep);border-radius:var(--r-m)}
+nav.leagues a{display:flex;align-items:center;justify-content:center;min-height:38px;padding:0 var(--s1);border-radius:9px;color:var(--navy-ink);font-weight:700;font-size:var(--fs-s);text-decoration:none;text-align:center;line-height:1.1;overflow-wrap:anywhere;min-width:0}
 nav.leagues a:hover{color:#fff}
 nav.leagues a[aria-current]{background:var(--on-navy);color:var(--navy)}
 
@@ -434,3 +434,9 @@ footer.site .note{color:inherit}
   .answer>.ph figcaption{padding:6px var(--s5) 0}
 }
 @media (prefers-reduced-motion:no-preference){a,.links a,.seg a,.chips a{transition:color .15s,background-color .15s}}
+
+/* crests: self-hosted club crests, same slots as the monograms */
+.crest{display:inline-block;vertical-align:middle;flex:none;object-fit:contain}
+.crest-s{width:28px;height:28px}
+.crest-m{width:40px;height:40px}
+.crest-l{width:64px;height:64px}

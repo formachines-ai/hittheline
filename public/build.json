@@ -1,0 +1,17 @@
+{
+  "data_date": "2026-11-27",
+  "built_at": "2026-11-28T06:00:22Z",
+  "source_commit": "671fe0af016e57b60920f3dd99e80f6ef84d313c",
+  "leagues": [
+    "2-bundesliga",
+    "belgian-pro-league",
+    "bundesliga",
+    "championship",
+    "la-liga",
+    "ligue-1",
+    "ligue-2",
+    "premier-league",
+    "primeira-liga",
+    "serie-a"
+  ]
+}
